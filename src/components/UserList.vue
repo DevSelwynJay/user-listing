@@ -28,6 +28,7 @@
             <div class="text-h4 q-pb-sm">{{ selectedUser.firstName }} {{ selectedUser.lastName }}</div>
             <div class="text-subtitle1"><q-icon name="phone" /> {{ selectedUser.mobileNumber }}</div>
             <div class="text-subtitle1"><q-icon name="room" /> {{ selectedUser.address }}</div>
+            <div class="text-subtitle1"><q-icon name="event" /> {{ selectedUser.date }}</div>
           </q-card-section>
           <q-card-actions align="right">
             <q-btn label="Close" color="primary" @click="closeDialog"/>
